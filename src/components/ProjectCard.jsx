@@ -3,7 +3,8 @@ import github from '../assets/download.png'
 
 const ProjectCard = ({ project: { name, image, deployedURL, githubURL } }) => {
     return (
-        <div className="projectCard col-md-4 col-lg-6 col-sm-12">
+        <div className="projectCard col-md-4 col-lg-6">
+            <h3>{name}</h3>
             <figure className="projectCardWrapper">
                 <a href={deployedURL} target="_blank">
                     <img src={image} alt={name} className="projectCardImage" />

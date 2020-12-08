@@ -113,7 +113,9 @@ code {
 
 .projectCard{
   width: 45%;
-
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 .projectCardWrapper {
