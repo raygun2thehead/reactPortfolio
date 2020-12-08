@@ -3,6 +3,7 @@ import photo from '../assets/autograph.jpg';
 import github from '../assets/download.png';
 import pdf from '../assets/pdf.png'
 import resume from '../assets/resume.pdf'
+import linkedin from '../assets/linkedin.png'
 
 const Sidebar = () => {
     const handleEmailMe = () => {
@@ -16,13 +17,17 @@ const Sidebar = () => {
             <div className="contact">
                 <div className="sidebarName">schaab.steven@gmail.com</div>
                 <div className="sidebarName">773.656.9747</div>
-            <a href={resume} download="resume.pdf">
                 <div className="sidebarItem">
-                    <img src={pdf} alt="" className="sidebarIcon" />Download Resume
+                    <a href="https://github.com/raygun2thehead">
+                        <img src={github} alt="github" className="icon" />Github</a>
                 </div>
-            </a>
                 <div className="sidebarItem">
-                    <a href="https://github.com/raygun2thehead"><img src={github} alt="github" className="sidebarIcon" />Github</a>
+                    <a href="linkedin.com/in/stevenschaab">
+                        <img src={linkedin} alt="linkedin" className="icon" />Linked In</a>
+                </div>
+                <div className="sidebarItem">
+                    <a href={resume} download="resume.pdf">
+                        <img src={pdf} alt="" className="icon" />Download Resume</a>
                 </div>
             </div>
             <div className="sidebarName sidebarEmail" onClick={handleEmailMe}>email me</div>
