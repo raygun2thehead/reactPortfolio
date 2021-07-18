@@ -7,13 +7,6 @@ import workday from '../../assets/projects/workday.png';
 
 const projectsData = [
     {
-        name: 'Hamgurblar',
-        image: hamgurblar,
-        deployedURL: 'https://peaceful-springs-80256.herokuapp.com/',
-        githubURL: 'https://github.com/raygun2thehead/hamgurblar',
-        category: ['MySql', 'javascript']
-    },
-    {
         name: 'Note Taker',
         image: noteTaker,
         deployedURL: 'https://warm-hollows-19672.herokuapp.com/',
@@ -46,6 +39,13 @@ const projectsData = [
         image: workday,
         deployedURL: 'https://raygun2thehead.github.io/workDayPlanner',
         githubURL: 'https://github.com/raygun2thehead/workDayPlanner',
+        category: ['MySql', 'javascript']
+    },
+    {
+        name: 'Hamgurblar',
+        image: hamgurblar,
+        deployedURL: 'https://peaceful-springs-80256.herokuapp.com/',
+        githubURL: 'https://github.com/raygun2thehead/hamgurblar',
         category: ['MySql', 'javascript']
     }
 ]
