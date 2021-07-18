@@ -11,7 +11,21 @@ const Sidebar = () => {
     }
     return (
         <div className="sidebar">
-            <img src={photo} alt="photo" className="sidebarPhoto" />
+            <img 
+            src={photo} 
+            alt="photo" 
+            className="sidebarPhoto"
+            style={{
+                width: '100%',
+                height: '100%',
+                maxWidth: '300px',
+                maxHeight: '300px',
+                borderRadius: '10px',
+                boxShadow:  '0 0 10px black',
+                objectFit: 'contain'
+            }}
+            
+             />
             <div className="sidebarName">Steven <span>Schaab</span></div>
             <div className="sidebarName">Web Developer</div>
             <div className="contact">
