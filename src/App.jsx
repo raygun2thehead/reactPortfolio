@@ -10,12 +10,18 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="container">
+        <div className="container"
+        style={{
+          marginBottom: '15px'
+        }}
+      >
           <div className="row">
             <div className="col-lg-3">
               <Sidebar />
             </div>
-            <div className="col-lg-9 main">
+            <div 
+              className="col-lg-9 main"
+              >
               <Navbar />
               <Switch>
                 <Route exact path="/">
