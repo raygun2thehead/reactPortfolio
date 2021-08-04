@@ -4,7 +4,7 @@ import resume from '../assets/resume.pdf'
 const Resume = () => {
     return (
               <div className="resume">
-                <iframe id="frame" src={resume}></iframe>
+                <iframe title="Resume" id="frame" src={resume}></iframe>
               </div>
     )
 }
